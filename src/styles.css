@@ -25,3 +25,23 @@ body {
   padding: 12px;
   border-radius: 12px;
 }
+
+.rodape {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn-comprar {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
