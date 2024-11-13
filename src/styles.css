@@ -1,6 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   background-color: #e7e7e7;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.bloco-topo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .topo {
   display: flex;
@@ -22,17 +39,31 @@ body {
 }
 .produto {
   background-color: #ffffff;
-  padding: 12px;
+  gap: 4px;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
-
+.box-foto {
+  background-color: white;
+  overflow: hidden;
+  height: 180px;
+}
+.box-foto img {
+  object-fit: cover;
+  width: 100%;
+}
 .rodape {
   background-color: black;
   color: aliceblue;
   display: flex;
   gap: 12px;
+  padding: 20px;
   justify-content: center;
-  margin-top: 15px;
+
+  height: 180px;
 }
 
 .btn-comprar {
@@ -41,6 +72,8 @@ body {
   border: none;
   border-radius: 6px;
   padding: 10px;
+  margin: 12px 4px;
+  width: 100%;
 }
 a {
   text-decoration: none;
